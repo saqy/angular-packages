@@ -119,6 +119,46 @@
           }
         }
       }
+    },
+    "angular-emojis": {
+      "projectType": "library",
+      "root": "projects/angular-emojis",
+      "sourceRoot": "projects/angular-emojis/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/angular-emojis/tsconfig.lib.json",
+            "project": "projects/angular-emojis/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/angular-emojis/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular-emojis/src/test.ts",
+            "tsConfig": "projects/angular-emojis/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-emojis/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/angular-emojis/tsconfig.lib.json",
+              "projects/angular-emojis/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "angular-packages"
 }
