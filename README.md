@@ -52,13 +52,13 @@ Carona Care (Stay Safe and Healthy 🙂)
 
 Reactions
 ```javascript
-  <angular-emojis [name]="'smiley'" size="20"> </angular-emojis>
+  <angular-emojis [name]="'thinking_face'" size="20"> </angular-emojis>
   <angular-emojis [name]="'face-with-tears-of-joy'" size="30"> </angular-emojis>
   <angular-emojis [name]="'wink'" size="40"> </angular-emojis>
   <angular-emojis [name]="'sunglasses'" size="50"> </angular-emojis>
-  <angular-emojis [name]="'thinking_face'" size="60"> </angular-emojis>
+  <angular-emojis [name]="'smiley'" size="60"> </angular-emojis>
 ```
-![node-emoji example](https://i.imgur.com/03drNko.png)
+![node-emoji example](https://i.imgur.com/HFTaR4J.png)
 Food
 ```javascript
  <angular-emojis [name]="'taco'" size="20"> </angular-emojis>
@@ -81,13 +81,13 @@ Bright Sky
 
 Hand gestures
 ```javascript
-  <angular-emojis [name]="'thumbsup'" size="20"> </angular-emojis>
+ <angular-emojis [name]="'thumbsdown'" size="20"> </angular-emojis>
   <angular-emojis [name]="'wave'" size="30"> </angular-emojis>
   <angular-emojis [name]="'crossed_fingers'" size="40"> </angular-emojis>
-  <angular-emojis [name]="'thumbsdown'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'thumbsup'" size="50"> </angular-emojis>
   <angular-emojis [name]="'ok_hand'" size="60"> </angular-emojis>
 ```
-![node-emoji example](https://i.imgur.com/rdG3JMY.png)
+![node-emoji example](https://i.imgur.com/qHRmLD8.png)
 
 ## Full list of emojis with name.
 Emoji list come from js-emoji (Thanks guys!!). You can get a JSON file with all emoji here: https://raw.githubusercontent.com/saqy/reactjs-emojis/master/src/components/emoji.json
