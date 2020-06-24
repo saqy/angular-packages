@@ -34,10 +34,10 @@ I know this is wrong and I am 💔!)
   <angular-emojis [name]="'black_heart'" size="50"> </angular-emojis>
   <angular-emojis [name]="'black_medium_square'" size="50"> </angular-emojis>
   <angular-emojis [name]="'waving_black_flag'" size="50"> </angular-emojis>
-  <angular-emojis [name]="'thumbsup_3'" size="50"> </angular-emojis>
-  <angular-emojis [name]="'thumbsup_2'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'fist_1'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'fist_2'" size="50"> </angular-emojis>
 ```
-![node-emoji example](https://i.imgur.com/hJqYcVW.png)
+![node-emoji example](https://i.imgur.com/hTyg0Jh.png)
 
 Carona Care (Stay Safe and Healthy 🙂)
 ```javascript
