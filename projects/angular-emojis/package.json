@@ -2,12 +2,29 @@
   "name": "angular-emojis",
   "version": "0.0.1",
   "author": "Muhammad Saqib",
-  
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
   },
   "dependencies": {
     "tslib": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saqy/angular-packages.git"
+  },
+ "keywords": [
+      "emoji",
+      "emojis",
+      "reactjs",
+      "smile",
+      "small",
+      "simple",
+      "emoticons",
+      "emotions",
+      "icons",
+      "javascript",
+      "carona care"
+    ]
 }
