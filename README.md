@@ -1,27 +1,98 @@
-# AngularPackages
+# angular-emojis
+_adds emoji support for angular projects_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+## Installation
+To install `angular-emojis`, you need [node.js](http://nodejs.org/) and [npm](https://github.com/npm/npm#super-easy-install).
 
-## Development server
+In your project directory, just run
+```sh
+npm install --save angular-emojis
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Usage
+add package to NgModule imports:
+```javascript
+import { AngularEmojisModule } from 'angular-emojis';
+ 
+@NgModule({
+  imports: [ AngularEmojisModule ]
+})
+export class AppModule {
+}
+```
+Add component to your page:
+```javascript
+  <angular-emojis> </angular-emojis>
+```
+### Preview
+😄
 
-## Code scaffolding
+### Examples with different Sizes
+Black Lives Matter (I acknowledge that Black people have to fight for basic rights, against systemic racism, unequal opportunities and injustice across the 🌎.
+I know this is wrong and I am 💔!)
+```javascript
+  <angular-emojis [name]="'black_heart'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'black_medium_square'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'waving_black_flag'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'thumbsup_3'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'thumbsup_2'" size="50"> </angular-emojis>
+```
+![node-emoji example](https://i.imgur.com/hJqYcVW.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Carona Care (Stay Safe and Healthy 🙂)
+```javascript
+  <angular-emojis [name]="'virus'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'mask'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'sneezing_face'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'gloves'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'soap'" size="50"> </angular-emojis>
+```
+![node-emoji example](https://i.imgur.com/ONDfEWs.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Reactions
+```javascript
+  <angular-emojis [name]="'smiley'" size="20"> </angular-emojis>
+  <angular-emojis [name]="'face-with-tears-of-joy'" size="30"> </angular-emojis>
+  <angular-emojis [name]="'wink'" size="40"> </angular-emojis>
+  <angular-emojis [name]="'sunglasses'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'thinking_face'" size="60"> </angular-emojis>
+```
+![node-emoji example](https://i.imgur.com/03drNko.png)
+Food
+```javascript
+  <angular-emojis [name]="'pizza'" size="20"> </angular-emojis>
+  <angular-emojis [name]="'fries'" size="30"> </angular-emojis>
+  <angular-emojis [name]="'burger'" size="40"> </angular-emojis>
+  <angular-emojis [name]="'burrito'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'taco'" size="60"> </angular-emojis>
+```
+![node-emoji example](https://i.imgur.com/uDNyOBP.png)
 
-## Running unit tests
+Nature
+```javascript
+ <angular-emojis [name]="'sun_with_face'" size="30"> </angular-emojis>
+  <angular-emojis [name]="'full_moon_with_face'" size="20"> </angular-emojis>
+  <angular-emojis [name]="'first_quarter_moon_with_face'" size="40"> </angular-emojis>
+  <angular-emojis [name]="'star'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'star2'" size="60"> </angular-emojis>
+```
+![node-emoji example](https://i.imgur.com/FmN7a1W.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Hand gestures
+```javascript
+  <angular-emojis [name]="'thumbsup'" size="20"> </angular-emojis>
+  <angular-emojis [name]="'wave'" size="30"> </angular-emojis>
+  <angular-emojis [name]="'crossed_fingers'" size="40"> </angular-emojis>
+  <angular-emojis [name]="'thumbsdown'" size="50"> </angular-emojis>
+  <angular-emojis [name]="'ok_hand'" size="60"> </angular-emojis>
+```
+![node-emoji example](https://i.imgur.com/rdG3JMY.png)
 
-## Running end-to-end tests
+## Full list of emojis with name.
+Emoji list come from js-emoji (Thanks guys!!). You can get a JSON file with all emoji here: https://raw.githubusercontent.com/saqy/reactjs-emojis/master/src/components/emoji.json
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## License
+MIT
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
