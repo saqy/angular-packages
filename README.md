@@ -39,7 +39,6 @@ I know this is wrong and I am 💔!)
 ```
 ![node-emoji example](https://i.imgur.com/hJqYcVW.png)
 
-
 Carona Care (Stay Safe and Healthy 🙂)
 ```javascript
   <angular-emojis [name]="'virus'" size="50"> </angular-emojis>
@@ -59,6 +58,7 @@ Reactions
   <angular-emojis [name]="'smiley'" size="60"> </angular-emojis>
 ```
 ![node-emoji example](https://i.imgur.com/HFTaR4J.png)
+
 Food
 ```javascript
  <angular-emojis [name]="'taco'" size="20"> </angular-emojis>
@@ -90,7 +90,7 @@ Hand gestures
 ![node-emoji example](https://i.imgur.com/qHRmLD8.png)
 
 ## Full list of emojis with name.
-Emoji list come from js-emoji (Thanks guys!!). You can get a JSON file with all emoji here: https://raw.githubusercontent.com/saqy/reactjs-emojis/master/src/components/emoji.json
+Emoji list come from js-emoji (🙏). You can get a JSON file with all emoji here: https://raw.githubusercontent.com/saqy/angular-packages/master/projects/angular-emojis/src/lib/emoji.json
 
 ## License
 MIT
