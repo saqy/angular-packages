@@ -61,15 +61,15 @@ Reactions
 ![node-emoji example](https://i.imgur.com/03drNko.png)
 Food
 ```javascript
-  <angular-emojis [name]="'pizza'" size="20"> </angular-emojis>
+ <angular-emojis [name]="'taco'" size="20"> </angular-emojis>
   <angular-emojis [name]="'fries'" size="30"> </angular-emojis>
   <angular-emojis [name]="'burger'" size="40"> </angular-emojis>
   <angular-emojis [name]="'burrito'" size="50"> </angular-emojis>
-  <angular-emojis [name]="'taco'" size="60"> </angular-emojis>
+  <angular-emojis [name]="'pizza'" size="60"> </angular-emojis>
 ```
-![node-emoji example](https://i.imgur.com/uDNyOBP.png)
+![node-emoji example](https://i.imgur.com/U1cd4K0.png)
 
-Nature
+Bright Sky
 ```javascript
  <angular-emojis [name]="'sun_with_face'" size="30"> </angular-emojis>
   <angular-emojis [name]="'full_moon_with_face'" size="20"> </angular-emojis>
