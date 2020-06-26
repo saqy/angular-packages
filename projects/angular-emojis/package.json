@@ -1,6 +1,6 @@
 {
   "name": "angular-emojis",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Muhammad Saqib",
   "license": "MIT",
   "peerDependencies": {
@@ -17,7 +17,8 @@
  "keywords": [
       "emoji",
       "emojis",
-      "reactjs",
+      "angular",
+      "angular 9",
       "smile",
       "small",
       "simple",
